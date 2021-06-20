@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b7ebe3-8065-41c4-9b04-220d659c2d33" name="Default Changelist" comment="" />
+    <list default="true" id="38b7ebe3-8065-41c4-9b04-220d659c2d33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uAWxF4XHaYPEqJFFMqfSLEW0LP" />
   <component name="ProjectViewState">
@@ -45,7 +53,7 @@
               </DockerPortBindingImpl>
             </list>
           </option>
-          <option name="sourceFilePath" value="../k8s-playground1/Dockerfile" />
+          <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -60,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624109118438</updated>
       <workItem from="1624109119760" duration="4414000" />
+      <workItem from="1624183415130" duration="276000" />
     </task>
     <servers />
   </component>
