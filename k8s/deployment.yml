@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubia-deployment
+spec:
+  selector:
+    matchLabels:
+      app: kubia-app
+  replicas: 3 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: kubia-app
+    spec:
+      containers:
+        - name: kubia-app
+          image: ellzap2/kubia
+          ports:
+            - containerPort: 8080
