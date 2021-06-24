@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b7ebe3-8065-41c4-9b04-220d659c2d33" name="Default Changelist" comment="Small nodes example for docker.">
-      <change afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/service.yml" afterDir="false" />
+    <list default="true" id="38b7ebe3-8065-41c4-9b04-220d659c2d33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,9 @@
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
   </component>
   <component name="ProjectId" id="1uAWxF4XHaYPEqJFFMqfSLEW0LP" />
   <component name="ProjectViewState">
@@ -40,7 +43,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +55,7 @@
     <configuration name="k82play1" type="docker-deploy" factoryName="dockerfile" singleton="false" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="imageTag" value="kubia-v1" />
+          <option name="imageTag" value="ellzap2/kubia" />
           <option name="containerName" value="kubia-container" />
           <option name="portBindings">
             <list>
@@ -77,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624109118438</updated>
       <workItem from="1624109119760" duration="4414000" />
-      <workItem from="1624183415130" duration="6674000" />
+      <workItem from="1624183415130" duration="12339000" />
     </task>
     <task id="LOCAL-00001" summary="Small nodes example for docker.">
       <created>1624183770663</created>
@@ -86,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624183770663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added k8s files for deployment and service exposure. Added Jetbrains automation.">
+      <created>1624219569170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624219569170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small nodes example for docker." />
-    <option name="LAST_COMMIT_MESSAGE" value="Small nodes example for docker." />
+    <MESSAGE value="Added k8s files for deployment and service exposure. Added Jetbrains automation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added k8s files for deployment and service exposure. Added Jetbrains automation." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

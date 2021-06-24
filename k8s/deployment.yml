@@ -13,7 +13,8 @@ spec:
         app: kubia-app
     spec:
       containers:
-        - name: kubia-app
+        - name: kubia
+          imagePullPolicy: Always
           image: ellzap2/kubia
           ports:
             - containerPort: 8080

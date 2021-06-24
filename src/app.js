@@ -6,7 +6,9 @@ console.log("Kubia server starting ...");
 const handler = function (request, response) {
     console.log("Receive request from " + request.connection.remoteAddress);
     response.writeHead(200);
-    response.end("You've hit " + os.hostname() + "\n");
+    response.end("==> You've hit " + os.hostname() + "\nHugo was here :-) :-) \n");
 }
+
+
 const www = http.createServer(handler);
 www.listen(8080);
